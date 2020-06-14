@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Les autruches </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div  class ="entete" style="display: flex">
+            <img class="logo" src="logo_autruche.png">
+            <h1 class="titre">Autrucharium: la référence en terme d'autruches!</h1>
+            <img class="logo2" src="logo_autruche.png">
+    </div>
+        <ul id="menu" style="display: flex">
+            <li>
+             <a href="Accueil2.html">Accueil</a>
+            </li>
+            <li>
+                <a href="Autruche.html">L'autruche</a>
+            </li>
+            <li>
+                <a href="Distributions.html">Distributions</a>
+            </li>
+            <li>
+                <a href="Photos.html">Photos</a>
+            </li>
+            <li>
+                <a href="site-aut.html">Quizz</a>
+            </li>
+            <li>
+                <a href="Qui_sommes_nous2.html">Qui somme nous ?</a>
+            </li>
+        </ul>
+        
+
+        <header>
+            
+            <h1>Testez vos connaissances sur les autruches:</h1>
+            <ul id="menuQuizz">
+                <li>
+                    <a href="site-aut.html">Quizz débutant</a>
+                </li>
+                <li>
+                    <a href="Quizz_Moyen.html">Quizz intermédiaire</a>
+                </li>
+                <li>
+                    <a href="Quizz_difficile.html">Quizz expert</a>
+                </li>
+            </ul>
+        
+        </header>
+
+        <form id="formulaire">
+        <p>C'est le seul oiseau à ne posséder que trois orteils sur chaque pied : </p>
+        <div>
+        <input type="radio" id="trois" name="orteils" >
+        <label value="false" for="trois">Vrai</label>
+        </div>
+        <div>
+        <input type="radio" id="pas_seul" name="orteils" >
+        <label value="true" for="pas_seul">Faux</label>
+        </div>
+
+
+        <p>La femelle, plus petite que le mâle, est entièrement gris-brun. La tête, le cou et les pattes sont de couleur chair : </p>
+        <div>
+        <input type="radio" id="chair" name="couleur" >
+        <label value="true" for="chair">Vrai</label>
+        </div>
+        <div>
+        <input type="radio" id="autre" name="couleur" >
+        <label value="false" for="autre">Faux</label>
+        </div>
+
+        <p>Le mâle peut émettre un son très fort ressemblant au rugissement d'un lion lorsqu'un prédateur approche :</p>
+        <div>
+        <input type="radio" id="same" name="rugissement" >
+        <label value="true" for="same">Vrai</label>
+        </div>
+        <div>
+        <input type="radio" id="diff" name="rugissement" >
+        <label value="false" for="diff">Faux</label>
+        </div>
+
+        <p> On peut la retrouver souvent dans des zones anthropisées telles que les pâturages : </p>
+        <div>
+        <input type="radio" id="paturage" name="retrouve" >
+        <label value="true" for="paturage">Vrai</label>
+        </div>
+        <div>
+        <input type="radio" id="pas_paturage" name="retrouve" >
+        <label value="false" for="pas_paturage">Faux</label>
+        </div>
+
+        <p>Les dernières populations sauvages vivent aujourd'hui dans les zones non-protégées d'Afrique: </p>
+        <div>
+        <input type="radio" id="safe" name="sauvage" >
+        <label value="false" for="safe">Vrai</label>
+        </div>
+        <div>
+        <input type="radio" id="unsafe" name="sauvage" >
+        <label value="true" for="unsafe">Faux</label>
+        </div>
+
+        <p>. À l'âge d'un an, la jeune autruche pèse 45 kg :</p>
+        <div>
+        <input type="radio" id="un_an" name="lourd" >
+        <label value="true" for="un_an">Vrai</label>
+        </div>
+        <div>
+        <input type="radio" id="plus" name="lourd" >
+        <label value="false" for="plus">Faux</label>
+        </div>
+
+        <p>Moins de 10 % des poussins passent le cap des 9 semaines, et ensuite, 35 % des survivants deviendront adultes :</p>
+        <div>
+        <input type="radio" id="probable" name="adulte" >
+        <label value="false" for="probable">Vrai</label>
+        </div>
+        <div>
+        <input type="radio" id="mort" name="adulte" >
+        <label value="true" for="mort">Faux</label>
+        </div>
+
+        <p>L'œuf de l'autruche est le plus grand au monde, il mesure 16 cm et pèse 1,5 kg :  </p>
+        <div>
+        <input type="radio" id="geant" name="monde" >
+        <label value="true" for="geant">Vrai</label>
+        </div>
+        <div>
+        <input type="radio" id="minus" name="monde" >
+        <label value="false" for="minus">Faux</label>
+        </div>
+
+        <p>Le mâle creuse dans le sol une dépression de 30 à 60 cm de profondeur et 3 mètres de largeur :</p>
+        <div>
+        <input type="radio" id="30cm" name="creuse" >
+        <label value="true" for="30cm">Vrai</label>
+        </div>
+        <div>
+        <input type="radio" id="moins" name="creuse" >
+        <label value="false" for="moins">Faux</label>
+        </div>
+
+        <p>L'incubation, qui dure de 71 à 87 jours, est assurée par le mâle et la femelle principale : </p>
+        <div>
+        <input type="radio" id="both" name="incubation" >
+        <label value="false" for="both">Vrai</label>
+        </div>
+        <div>
+        <input type="radio" id="un_seul" name="incubation" >
+        <label value="true" for="un_seul">Faux</label>
+        </div>
+
+        <div class="bouton">
+            <button id="valider" type="submit">
+                Valider
+            </button>
+            <button id="bouton">
+                Réessayer
+            </button>
+        </div>
+        <div id='newDiv'></div>
+
+
+        </form>
+
+    </body>
+
+
+
+        	
+    <div class="footer">
+                <div class="inner_footer">
+                    <div class ="logo_container">
+                        <img class="logo" src ="logo_autruche2.png">
+                    </div>
+
+                    <div class="footer_third">
+                        <h1>Need Help?</h1>
+                        <a href="#">Terms &amp; Conditions</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+
+                    <div class="footer_third">
+                        <h1>Navigation</h1>
+                        <a href="Accueil2.html">Accueil</a><br/>
+                        <a href="Autruche.html">Autruches</a><br/>
+                        <a href="Distributions.html">Distributions</a><br/>
+                        <a href="Photos.html">Photos</a><br/>
+                        <a href="site-aut.html">Quizz</a><br/>
+                        <a href="Qui_sommes_nous2.html">Qui sommes nous ?</a></li>
+                    </div>
+                    <div class="footer_third">
+                        <h1>Follow us</h1>
+                        <a href="https://twitter.com/AnouarDaniel">
+                        <img style= class="twitter" src="twit2.png" width="20%"/>
+                        <a href="https://www.facebook.com/thomas.anouar.94">
+                        <img class="face" src="face3.png" width="20%"/>
+                        </a>
+                        <a href="https://www.instagram.com/autrucharium/">
+                        <img class="face" src="insta.png" width="20%"/>
+                        </a>
+ 
+                    <span>
+                        StudHelp <br>
+                        France & Ile de France, 94800 <br>
+                        Efrei Paris, Université d'ingénieur informatique <br>
+                        30-32 avenue de la république<br>
+                        Villejuif<br>
+                    </span>
+                    </div>
+            </div>
+    
+            <br/>
+<br/><br/>  
+            <div class="fin" style="color: white">
+                Copyright &copy; Autrucharium |2019 - 2020| All right reserved.
+            </div>
+
+
+
+</html>
+<script>
+
+        let userScore = 0
+        document.getElementById("valider").addEventListener("click", showQuizz = (e) =>{
+            e.preventDefault();
+            const orteils = document.getElementsByName("orteils")[1].checked
+            const couleur = document.getElementsByName("couleur")[0].checked
+            const rugissement = document.getElementsByName("rugissement")[0].checked
+            const retrouve = document.getElementsByName("retrouve")[0].checked
+            const sauvage = document.getElementsByName("sauvage")[1].checked
+            const lourd = document.getElementsByName("lourd")[0].checked
+            const adulte = document.getElementsByName("adulte")[1].checked
+            const monde = document.getElementsByName("monde")[0].checked
+            const creuse = document.getElementsByName("creuse")[0].checked
+            const incubation = document.getElementsByName("incubation")[1].checked
+            console.log([orteils, couleur, rugissement, retrouve, sauvage, lourd, adulte, monde, creuse, incubation])
+            let array1 = [orteils, couleur, rugissement, retrouve, sauvage, lourd, adulte, monde, creuse, incubation]
+            for (let i = 0; i < array1.length; i++){
+                if (array1[i] === true){
+                    console.log('ca marche')
+                    userScore++;
+                } 
+            }
+           
+            console.log('userScore:',userScore);
+            ///const newDiv = document.createElement('div')
+            document.getElementById("formulaire").reset()
+            if (userScore < 5){
+            document.getElementById('newDiv').innerHTML = `<p>Votre score est de: ${userScore}/10, vous ne connaissez pas bien les autruches, révisez le cours et retentez votre chance !</p>`;
+            }
+            else if (userScore >= 5 && userScore < 8){
+                document.getElementById('newDiv').innerHTML = `<p>Félicitation, votre score est de: ${userScore}/10, vous connaissez bien les autruches mais pas parfaitement !</p>`;
+            }
+            else if (userScore > 7 && userScore < 10){
+                document.getElementById('newDiv').innerHTML = `<p>BRAVO, votre score est de: ${userScore}/10, c'est top, mais les autruches ont encore quelques secrets que vous ne connaissez pas</p>`;
+            }
+            else{
+                document.getElementById('newDiv').innerHTML = `<p>WOOOW, Votre score est de: ${userScore}/10, les autruches n'ont plus de secrets pour toi, un véritable expert !!</p>`;
+            }
+           userScore = 0; 
+           }
+        )
+
+        
+</script>

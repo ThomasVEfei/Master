@@ -1,0 +1,219 @@
+body{
+    background-image: url("./savane.jpg");
+
+    }
+    .logo{
+width: 7%;
+margin-left: 10px;
+margin-right: 20px;
+height: 7%;
+display: flex;
+}
+.logo2{
+width: 7%;
+height: 7%;
+display: flex;
+}
+h1{
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+    display: flex;
+    font-size: 45px;
+    align-self:center;
+    font-family: cursive;
+    color: black;
+}
+form{
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem;   
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+}
+#menu li{
+    width: 16%;
+}
+#menu{
+    display: flex;
+    margin: 0.5rem 3rem;
+    color: white;
+    margin: 0;
+    list-style: none;
+    height: fit-content;
+    display: flex;
+    background-image: repeating-linear-gradient(white, black 100px);
+}
+
+#menu li a{
+    display: block;
+    text-align: center;
+    color: black; 
+    text-decoration: none;
+    padding:1rem;  
+    width: 240px;
+}
+
+#menu li a:hover,   
+#menu li a:focus{
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+                0 -1px 0 hsl(210, 100%, 42%) inset, 
+                0 -2px 0 hsl(210, 100%, 48%) inset, 
+                0 -3px 0 hsl(210, 100%, 54%) inset, 
+                0 -4px 0 hsl(210, 100%, 60%) inset, 
+                0 -5px 0 hsl(210, 100%, 70%) inset; 
+    position: relative;
+    
+} 
+.fin{
+    text-align: center;
+    padding-top:  100px;
+}
+#menu li a:active{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}
+
+#menu li a::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 9px;
+    margin-left: -2px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    
+}
+
+
+
+
+.footer{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 20px 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner_footer .logo_container{
+    width: 25%;
+    float: left;
+    height: 100%;
+    display: block; 
+}
+
+.inner_footer .logo_container img{
+    width: 40%;
+    height: auto;
+}
+
+.inner_footer .footer_third{
+    width: calc(21.666666667% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+.inner_footer .footer_third:last-child{
+    margin-right: 0;
+}
+
+.inner_footer .footer_third h1{
+    font-family: 'arial';
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.inner_footer .footer_third a{
+    font-family: 'arial';
+    font-size: 18px;
+    color: white; 
+    /*display: block;*/
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.inner_footer .footer_third li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.inner_footer .footer_third span{
+    color: white;
+    font-family: 'arial';
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.fin{
+    text-align: center;
+    margin-top: 200px;
+}
+#menuQuizz{
+    display:flex;
+    justify-content: center;
+}
+#menuQuizz li {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem;
+    background: whitesmoke;
+}
+#menuQuizz li a{
+    list-style: none;
+    text-align: none;   
+    color:black;
+    
+}
+form p{
+    text-transform: uppercase;
+    
+}
+form{
+    margin-bottom: 3rem;
+}
+button{
+    border-radius: 15px;
+    border: 1px solid white;
+    background: white;
+    box-shadow: 2px 2px;
+    padding: 0.3rem 1rem;
+}
+label{
+    text-transform: uppercase;
+}
+
+#fiche
+{
+    background-color: whitesmoke;
+    width: 85%;
+    max-width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 3px 3px grey;
+    margin-left: 150px;
+    margin-bottom: 300px;
+}

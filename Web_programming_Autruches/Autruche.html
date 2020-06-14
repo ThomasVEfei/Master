@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="Autruche.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<div  class ="entete" style="display: flex">
+            <img class="logo" src="logo_autruche.png">
+            <h1 class="titre">Autrucharium: la référence en terme d'autruches!</h1>
+            <img class="logo2" src="logo_autruche.png">
+    </div>
+	
+	<ul id="menu">
+                <li>
+                 <a href="Accueil2.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="Autruche.html">L'autruche</a>
+                </li>
+                <li>
+                    <a href="Distributions.html">Distributions</a>
+                </li>
+				<li>
+                    <a href="Photos.html">Photos</a>
+                </li>
+                <li>
+                    <a href="site-aut.html">Quizz</a>
+                </li>
+                <li>
+                    <a href="Qui_sommes_nous2.html">Qui somme nous ?</a>
+                </li>
+    </ul>
+
+    
+
+	</head>
+	<body>
+    <h1 class="titre1">
+	    Analyses complète de l'autruche
+	</h1>
+
+    <div>
+	    <h2  class = "titre3">
+	        INTRODUCTION
+	    <h2>
+    </div>
+
+    <div class="Bien">
+    <p id="fiche">
+    Le genre Struthio est composé de deux espèces d'autruches : 
+L’Autruche d'Afrique et l'Autruche de Somalie, une sous espèce récemment élevée au rang d'espèce.<br/>
+L'Autruche d'Afrique est le plus grand des oiseaux et celui qui est reconnu immédiatement par tous avec son grand corps, son long cou et ses longues pattes robustes. C'est le seul oiseau à ne posséder que deux orteils sur chaque pied. Le doigt interne, plus développé, lui sert d'appui notamment pendant la course. Il est également équipé d'une longue griffe. La tête, très petite comparée au corps, possède aussi les plus grands yeux du monde animal terrestre. Ils sont entourés de grands cils noirs. Le bec, au bout arrondi, est large et plat. C'est l'oiseau le plus lourd. Son poids adulte, qui varie de 90 à 156 kg en fonction du sexe et de la sous espèce, lui interdit le vol. Ses plumes ne possèdent pas de barbules, ce qui se traduit visuellement par un plumage bouffant et d'aspect duveteux. C'est avant tout un bon moyen pour s'isoler des températures extrêmes, élevées ou basses. Le dimorphisme sexuel est net.<br/>
+    </p>
+    <div>
+
+    <button id="togg1">En savoir plus!</button>
+
+    <div id="d1">
+        <p>Le mâle possède des tectrices noires et des pennes, rémiges et rectrices, blanches. Les parties nues, tête, majorité du cou et pattes, sont colorées différemment en fonction de la sous espèce (roses, grises ou gris-bleu). La tête peut être légèrement et partiellement couverte de plumes brunâtres courtes.
+La femelle, plus petite que le mâle, est entièrement gris-brun. La tête, le cou et les pattes sont de couleur chair.
+Le poussin est fauve avec des taches brun foncé, il grandit dans sa première année de 25 cm tous les mois. À l'âge d'un an, la jeune autruche pèse 45 kg. L’immature est légèrement plus foncé que la femelle. Le développement total de l'oiseau prend 18 mois. La maturité sexuelle est atteinte en 3 à 4 ans.</p>
+    </div>
+	
+    <script>
+        let togg1 = document.getElementById("togg1");
+        let d1 = document.getElementById("d1");
+        togg1.addEventListener("click", () => {
+            if(getComputedStyle(d1).display === "block"){
+                d1.style.display = "none";
+            } else {
+                d1.style.display = "block";
+            }
+        })
+    </script>
+
+    <div>
+	    <h2  class = "titre3">
+	        SON ET CRI
+	    <h2>
+    </div>
+
+    <div class="Bien">
+    <p id="fiche">
+    Même si l'Autruche d'Afrique est d'ordinaire plutôt silencieuse, elle possède un large éventail d'émissions vocales, sifflements, sons gutturaux, ronflements. Le mâle peut émettre un son très fort ressemblant au rugissement d'un lion lorsqu'un prédateur approche.</br>
+    Bien que son cri soit méconnu du grand public principalement, il n'est reste pas moins très impressionnant!
+    </p>
+    <div>
+    <audio style="margin-left:300px;" src="Son_autruche.mp3" controls> </audio>
+
+    <div>
+	    <h2  class = "titre4">
+	        COMPORTEMENTS ET TRAITS DE CARACTERE
+	    <h2>
+    </div>
+
+    <div class="Bien">
+    <p id="fiche">
+    L'Autruche d'Afrique, oiseau atypique et incapable de voler, possède pourtant d'autres avantages. Dressée sur ses longues jambes robustes, elle peut observer au-dessus de la végétation et prévenir toute arrivée d'éventuels prédateurs. Elle possède aussi la faculté de courir très vite, jusqu'à 70 km/h, avec des enjambées de 3 à 5 mètres et dépasse en vitesse et en endurance la plupart des grands mammifères. Ses ailes très larges, d’une envergure de deux mètres, lui permettent de changer brutalement de direction pendant les courses rapides. 
+    </p>
+    <div>
+
+    <button id="togg2">En savoir encore plus!</button>
+
+    <div id="d2">
+        <p>Elles lui permettent également de protéger ses parties nues et de supporter les températures extrêmes de son habitat, les variations entre le jour et la nuit pouvant être importantes. L'Autruche d'Afrique n'est pas un oiseau grégaire elle passe les mois d'hiver seule ou en couple. Pendant la période de reproduction et la saison très chaude, elle vit en petits groupes nomades de 5 à 50 individus menés par un seul individu au milieu des troupeaux de zèbres ou d'antilopes. Oiseau diurne, le pic d'activité est tôt le matin ou tard dans la journée. Recherche de nourriture, bains de poussière et baignades occupent ses journées. Son territoire peut s'étendre jusqu'à atteindre 22 km². Sa taille et sa bonne acuité visuelle lui permettent de repérer les prédateurs de loin. L'autruche ne met pas la tête dans le sable pour se cacher bien sûr, mais se place au sol, cou et tête allongés, se faisant passer pour un monticule de terre. Pour échapper au danger, l'autruche peut s'enfuir mais aussi se défendre, défendre sa nichée et infliger de graves blessures en donnant de violents coups de pattes. Le seul prédateur capable de la poursuivre aussi loin qu'elle puisse aller reste le guépard. Là où la nourriture est rare, les couples ont tendance à être monogames. D'ordinaire le mâle possède une femelle principale et plusieurs femelles secondaires.
+        </p>
+    </div>
+    <script>
+        let togg2 = document.getElementById("togg2");
+        let d2 = document.getElementById("d2");
+        togg2.addEventListener("click", () => {
+            if(getComputedStyle(d2).display === "block"){
+                d2.style.display = "none";
+            } else {
+                d2.style.display = "block";
+            }
+        })
+    </script>
+
+    <div>
+	    <h2  class = "titre5">
+	        REPRODUCTION ET NIDIFICATION
+	    <h2>
+    </div>
+
+    <div class="Bien">
+    <p id="fiche">Quand arrive la saison de reproduction, dont la date dépend de la zone géographique, le mâle creuse dans le sol une dépression de 30 à 60 cm de profondeur et 3 mètres de largeur. Puis il essaie d'attirer les femelles avec une parade dansée. Il se dresse, plumes des ailes et de la queue grandes ouvertes, secoue chaque aile de droite à gauche, fait de même avec la tête et le cou et déplace la queue de bas en haut. Il s'approche alors de la femelle tout en dansant et en frappant le sol de ses pattes. Une fois la femelle courtisée, le couple ira chercher un peu d'intimité en s'écartant du groupe et chassera tout intrus.
+    </p>
+    <div>
+
+    <button id="togg3">En savoir encore plus!</button>
+
+    <div id="d3">
+        <p>Une seconde parade nuptiale peut alors commencer, qui sera suivie de l’accouplement. Le mâle possède un harem constitué de deux à sept femelles. La femelle principale peut pondre jusqu'à 11 œufs dans la dépression servant de nid, les femelles secondaires pondant 2 à 6 œufs chacune dans le même nid. L'œuf de l'autruche est le plus grand au monde, il mesure 16 cm et pèse 1,5 kg. Il est de couleur crème. L'incubation, qui dure de 35 à 46 jours, est assurée par le mâle et la femelle principale. Cette dernière peut écarter du nid autant d'œufs qu'elle le souhaite et n'en conserver qu'une vingtaine. La femelle principale est capable de reconnaître ses propres œufs. Elle conserva donc toujours les siens et quelques autres. Après l'éclosion, de grandes crèches se forment autour de deux ou plusieurs adultes, un couple pouvant s'occuper de poussins venant d'une autre nichée. Moins de 10 % des poussins passent le cap des 9 semaines, et ensuite, 15 % des survivants deviendront adultes.
+Les prédateurs des jeunes autruches sont les carnivores (chacals,...) les rapaces, les phacochères, les mangoustes,... Les Vautours percnoptères peuvent s'attaquer aux œufs. En cas d'attaque sur la nichée , un adulte peut feindre une blessure pour faire diversion, mais les combats ne sont pas rares et les adultes sont capables de tuer un grand prédateur comme le lion à coup de pattes.
+</p>
+    </div>
+    <script>
+        let togg3 = document.getElementById("togg3");
+        let d3 = document.getElementById("d3");
+        togg3.addEventListener("click", () => {
+            if(getComputedStyle(d3).display === "block"){
+                d3.style.display = "none";
+            } else {
+                d3.style.display = "block";
+            }
+        })
+    </script>
+    
+
+
+    <div class="footer">
+                <div class="inner_footer">
+                    <div class ="logo_container">
+                        <img class="logo" src ="logo_autruche2.png">
+                    </div>
+
+                    <div class="footer_third">
+                        <h1>Need Help?</h1>
+                        <a href="#">Terms &amp; Conditions</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+
+                    <div class="footer_third">
+                        <h1>Navigation</h1>
+                        <a href="Accueil2.html">Accueil</a><br/>
+                        <a href="Autruche.html">Autruches</a><br/>
+                        <a href="Distributions.html">Distributions</a><br/>
+                        <a href="Photos.html">Photos</a><br/>
+                        <a href="site-aut.html">Quizz</a><br/>
+                        <a href="Qui_sommes_nous2.html">Qui sommes nous ?</a></li>
+                    </div>
+                    <div class="footer_third">
+                        <h1>Follow us</h1>
+                        <a href="https://twitter.com/AnouarDaniel">
+                        <img style= class="twitter" src="twit2.png" width="20%"/>
+                        <a href="https://www.facebook.com/thomas.anouar.94">
+                        <img class="face" src="face3.png" width="20%"/>
+                        </a>
+                        <a href="https://www.instagram.com/autrucharium/">
+                        <img class="face" src="insta.png" width="20%"/>
+                        </a>
+ 
+                    <span>
+                        StudHelp <br>
+                        France & Ile de France, 94800 <br>
+                        Efrei Paris, Université d'ingénieur informatique <br>
+                        30-32 avenue de la république<br>
+                        Villejuif<br>
+                    </span>
+                    </div>
+            </div>
+    
+            <br/>
+<br/><br/>  
+            <div class="fin" style="color: white">
+                Copyright &copy; Autrucharium |2019 - 2020| All right reserved.
+            </div>
+	</body>
+</html>
